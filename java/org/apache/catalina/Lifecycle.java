@@ -243,7 +243,6 @@ public interface Lifecycle {
 
 
     /**
-     * Gracefully terminate the active use of the public methods other than
      * property getters/setters and life cycle methods of this component. Once
      * the STOP_EVENT is fired, the public methods other than property
      * getters/setters and life cycle methods should not be used. The following

@@ -300,7 +300,7 @@ public final class Bootstrap {
         if (log.isDebugEnabled()) {
             log.debug("Calling startup class " + method);
         }
-        method.invoke(catalinaDaemon, param);
+        method.invoke(catalinaDaemon, param); // catalina.load
     }
 
 
